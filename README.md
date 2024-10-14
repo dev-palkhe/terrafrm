@@ -12,8 +12,15 @@ To shorten the `terraform` command, you can create an alias:
 ```bash
 alias tf=terraform
 
+```bash
+# Initialize Terraform (downloads providers and modules)
 tf init
 
-tf plan
+```bash
+# Show the execution plan (what Terraform will create, change, or destroy)
+tf plan 
 
+```bash
+# Apply the changes (provisions the VM)
 tf apply
+
